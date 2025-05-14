@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+# 🏆 Top Anime Interactive Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic, animated showcase of top anime series, built with React, TypeScript, and GSAP. Hover over each character to reveal their name in vibrant colors, with smooth, interactive transitions and a bold, modern design.
 
-Currently, two official plugins are available:
+## ✨ Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `React`
+- `CSS`
+- `TypeScript`
+- `GSAP`
+- `Vite`
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Animated name reveals with per character color and motion
+- Smooth scaling and transitions on profile image hover
+- Responsive layout for desktop and mobile
+- Custom GSAP SplitText integration for advanced text animation
+- Accessible: descriptive alt text for all images
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📍 The Process
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+I wanted to create a visually striking and interactive way to present my favorite anime series. Inspired by bold title cards and character spotlights, I used GSAP for advanced text and image animations, ensuring each hover feels lively and unique. The color palette is tuned for maximum contrast on a dark background, and the codebase is structured for clarity and maintainability. Accessibility and responsiveness were also priorities, so the gallery works well across devices and with screen readers.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚦 Running the Project
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open `http://localhost:5173` in your browser
+
+## 🎞️ Preview
+
+...
+
+ 
